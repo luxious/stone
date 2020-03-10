@@ -81,4 +81,3 @@ staging:
 production:
   <<: *default
   database: stone_development
-  password: <%= ENV['STONE_DATABASE_PASSWORD'] %>

@@ -62,9 +62,12 @@ group :development do
   gem 'rails_real_favicon'
   gem "capistrano", "~> 3.10", require: false
   gem 'capistrano-bundler', '~> 1.5', require: false
-  gem 'capistrano-rbenv', require: false
+  gem 'capistrano-rvm', require: false
   gem "capistrano-rails", "~> 1.4", require: false
   gem 'capistrano3-puma', require: false
+
+  gem 'ed25519', '>= 1.2', '< 2.0'
+gem 'bcrypt_pbkdf', '>= 1.0', '< 2.0'
 end
 
 group :test do

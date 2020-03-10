@@ -19,7 +19,7 @@
 
 # role :app, %w{deploy@example.com}, my_property: :my_value
 # role :web, %w{user1@primary.com user2@additional.com}, other_property: :other_value
-server %{39.99.212.180}, roles: %w{db app web}
+server %{lux@39.99.212.180}, roles: %w{db app web}
 set :branch, "develop"
 set :rails_env, "production"
 
