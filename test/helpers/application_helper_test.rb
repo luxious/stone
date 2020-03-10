@@ -8,7 +8,7 @@ class ApplicationHelperTest < ActionView::TestCase
   end
 
   test "should return social link" do
-    assert_dom_equal %{<ul class="social"><a target="_blank" href="https://github.com/lanzhiheng"><i class="fab fa-github"></i></a><a target="_blank" href="https://www.weibo.com/u/2174832927"><i class="fab fa-weibo"></i></a><a target="_blank" href="https://twitter.com/lanzhiheng"><i class="fab fa-twitter"></i></a><a target="_blank" href="mailto:lanzhihengrj@gmail.com"><i class="far fa-envelope"></i></a></ul>}, social
+    assert_dom_equal %{<ul class="social"><a target="_blank" href="https://github.com/luxious"><i class="fab fa-github"></i></a><a target="_blank" href="mailto:lx5241@gmail.com"><i class="far fa-envelope"></i></a></ul>}, social
   end
 
   test "active path" do
