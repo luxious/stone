@@ -2,9 +2,9 @@
 lock "~> 3.12.0"
 
 set :application, "stone"
-set :repo_url, "git@github.com:lanzhiheng/stone.git"
+set :repo_url, "git@github.com:luxious/stone.git"
 set :rbenv_ruby, File.read('.ruby-version').strip
-set :app_url, 'https://www.lanzhiheng.com'
+set :app_url, 'https://www.rubyonrust.com'
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 

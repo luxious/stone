@@ -3,19 +3,11 @@ module ApplicationHelper
     [
       {
         class: 'fab fa-github',
-        url: 'https://github.com/lanzhiheng'
-      },
-      {
-        class: 'fab fa-weibo',
-        url: 'https://www.weibo.com/u/2174832927'
-      },
-      {
-        class: 'fab fa-twitter',
-        url: 'https://twitter.com/lanzhiheng'
+        url: 'https://github.com/luxious'
       },
       {
         class: 'far fa-envelope',
-        url: 'mailto:lanzhihengrj@gmail.com'
+        url: 'mailto:lx5241@gmail.com'
       },
     ]
   end
