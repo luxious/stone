@@ -8,10 +8,10 @@
 # server "db.example.com", user: "deploy", roles: %w{db}
 
 
-server %{207.148.100.169}, roles: %w{db app web}
+server %{39.99.212.180}, roles: %w{db app web}
 set :branch, "master"
 set :rails_env, "production"
-set :app_url, "https://www.lanzhiheng.com"
+set :app_url, "https://www.rubyonrust.com"
 
 
 # role-based syntax
